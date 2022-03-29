@@ -30,5 +30,5 @@ parameters().count_params( model )
 
 ## pypi repo link -
 
-[torchFunctions] (https://pypi.org/project/torchFunctions/)
+[torchFunctions](https://pypi.org/project/torchFunctions/)
 
