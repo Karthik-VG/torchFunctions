@@ -23,7 +23,7 @@ A small package for pytorch functions
 
 from torchFunctions.parameters import parameters
 
-model = " your model "
+model = "your model"
 
 parameters().count_params( model )
 ```

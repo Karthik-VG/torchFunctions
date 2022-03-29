@@ -9,7 +9,7 @@ USER_NAME = "Karthik-VG"
 
 setuptools.setup(
     name= f"{PROJECT_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author=USER_NAME,
     author_email="karthikvg.engineer@gmail.com",
     description="This package makes the ease of using code in pytorch which needs to be used multiple times ",
