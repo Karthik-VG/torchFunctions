@@ -4,15 +4,15 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PROJECT_NAME = "mongoops"
+PROJECT_NAME = "torchFunctions"
 USER_NAME = "Karthik-VG"
 
 setuptools.setup(
     name= f"{PROJECT_NAME}",
-    version="1.0.2",
+    version="0.0.1",
     author=USER_NAME,
     author_email="karthikvg.engineer@gmail.com",
-    description="Its a implementation of mongodB operations for atlas",
+    description="This package makes the ease of using code in pytorch which needs to be used multiple times ",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url= f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
@@ -30,7 +30,8 @@ setuptools.setup(
     install_requires = [
         "pymongo==4.0.2",
         "pandas",
-        "dnspython"    
+        "torch",
+        
     ]
 
 )
