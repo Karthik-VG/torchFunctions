@@ -1,6 +1,6 @@
 # torchFunctions - eleka12
 
-A small package for pytorch functions
+package for pytorch functions   --- CURRENTLY UPDATING THIS PACKAGE
 
 # How to use -
 
